@@ -1,0 +1,73 @@
+/* Assistant de création : formulaire à gauche, aperçu à droite (onglets sur mobile). */
+main.app { max-width: none; padding: 0; }
+.builder { display: grid; grid-template-columns: minmax(340px, 440px) 1fr; height: calc(100vh - 61px); }
+.b-side { overflow-y: auto; padding: 20px 24px 40px; border-right: 1px solid var(--border); background: var(--surface); }
+.b-side h1 { font-size: 1.5rem; margin: 8px 0 6px; }
+.b-side label { display: block; font-weight: 600; margin: 14px 0 4px; }
+.b-side input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=color]), .b-side textarea, .b-side select {
+  width: 100%; padding: 10px 12px; font: inherit; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); }
+.b-side input[type=file] { font-size: .9rem; max-width: 100%; }
+.b-side .hint { display: block; font-size: .85rem; color: var(--muted); margin-top: 4px; }
+.muted { color: var(--muted); font-weight: 400; }
+.small { font-size: .88rem; }
+.b-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+.b-steps { list-style: none; display: flex; flex-wrap: wrap; gap: 4px; padding: 0; margin: 0 0 12px; }
+.b-steps button { display: flex; align-items: center; gap: 6px; border: 0; background: none; color: var(--muted); font: inherit; font-size: .85rem; padding: 4px 6px; border-radius: 6px; cursor: pointer; }
+.b-steps button:disabled { cursor: default; opacity: .5; }
+.b-steps .n { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--border); font-size: .75rem; }
+.b-steps .on button { color: var(--text); font-weight: 700; }
+.b-steps .on .n, .b-steps .done .n { background: var(--accent); border-color: var(--accent); color: #fff; }
+.b-acts { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin: 16px 0; }
+.b-act { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 8px; border: 2px solid var(--border); border-radius: 12px; background: var(--bg); color: var(--text); font: inherit; font-size: .9rem; cursor: pointer; text-align: center; }
+.b-act .e { font-size: 1.8rem; }
+.b-act:hover, .b-act.on { border-color: var(--accent); }
+.b-themes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0; }
+.b-theme { display: flex; align-items: center; gap: 10px; padding: 14px; border: 2px solid var(--border); cursor: pointer; font-size: 1rem; }
+.b-theme span { width: 18px; height: 18px; border-radius: 50%; display: inline-block; }
+.b-theme.on { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.b-colors { display: flex; flex-wrap: wrap; gap: 8px; }
+.b-color { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--border); cursor: pointer; padding: 0; }
+.b-color.on { box-shadow: 0 0 0 3px var(--text); }
+.b-color.custom { display: inline-grid; place-items: center; margin: 0; background: var(--bg); position: relative; font-weight: 700; }
+.b-color.custom input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.b-upload { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.b-radios { display: grid; gap: 6px; }
+.b-radio { font-weight: 400 !important; margin: 0 !important; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; }
+.b-radio:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.b-item { border: 1px solid var(--border); border-radius: 12px; padding: 4px 14px 12px; margin: 14px 0; }
+.b-item legend { font-weight: 700; font-size: .9rem; padding: 0 6px; }
+.b-item-tools { display: flex; justify-content: flex-end; gap: 6px; margin-top: 10px; }
+.b-btn { display: inline-block; background: var(--accent); color: #fff; border: 2px solid var(--accent); padding: 10px 18px; border-radius: 999px; font: inherit; font-weight: 700; cursor: pointer; text-decoration: none; }
+.b-btn.ghost { background: transparent; color: var(--accent); }
+.b-x { background: none; border: 1px solid var(--border); color: var(--muted); border-radius: 6px; padding: 4px 10px; font: inherit; font-size: .85rem; cursor: pointer; }
+.b-x:disabled { opacity: .4; cursor: default; }
+.b-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 28px; }
+.b-warn { background: #fef3c7; color: #78350f; padding: 10px 12px; border-radius: 8px; margin-top: 14px; }
+.check { font-weight: 400 !important; display: flex !important; gap: 8px; align-items: flex-start; }
+.check input { margin-top: 5px; }
+.linklike { display: inline !important; color: var(--accent); text-decoration: underline; cursor: pointer; font-weight: 400 !important; }
+.b-guide { padding-left: 22px; }
+.b-guide li { margin-bottom: 14px; }
+.b-box { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 14px; margin: 16px 0; }
+.b-box p { margin: 6px 0 12px; }
+.b-box .b-btn { margin: 0 6px 6px 0; }
+.b-preview { display: flex; flex-direction: column; align-items: center; background: var(--bg); padding: 12px; min-width: 0; }
+.b-device { display: flex; gap: 4px; margin-bottom: 10px; }
+.b-device button, .b-tab { border: 1px solid var(--border); background: var(--surface); color: var(--muted); padding: 6px 14px; border-radius: 999px; font: inherit; font-size: .88rem; cursor: pointer; }
+.b-device .on, .b-tab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+#preview { flex: 1; width: 100%; border: 1px solid var(--border); border-radius: 12px; background: #fff; box-shadow: 0 8px 30px rgba(0,0,0,.08); transition: max-width .2s; }
+.b-tabs { display: none; }
+@media (max-width: 860px) {
+  .builder { display: block; height: auto; }
+  .b-tabs { display: flex; gap: 6px; justify-content: center; padding: 10px; position: sticky; top: 0; z-index: 3; background: var(--bg); border-bottom: 1px solid var(--border); }
+  .b-side { border-right: 0; padding: 16px; }
+  .b-preview { display: none; height: calc(100vh - 120px); padding: 8px; }
+  .builder.show-preview .b-side { display: none; }
+  .builder.show-preview .b-preview { display: flex; }
+  .b-device { display: none; }
+  .b-row { grid-template-columns: 1fr; }
+}
+@media (prefers-color-scheme: dark) {
+  .b-btn:not(.ghost), .b-steps .on .n, .b-steps .done .n, .b-device .on, .b-tab.on { color: #11151c; }
+  .b-warn { background: #422006; color: #fde68a; }
+}

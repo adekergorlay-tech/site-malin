@@ -1,0 +1,242 @@
+[
+  {
+    "id": "restaurant",
+    "nom": "Restaurant",
+    "emoji": "🍽️",
+    "theme": "chaleureux",
+    "couleur": "#b45309",
+    "exemple": "Le Petit Comptoir",
+    "slogan": "Une cuisine maison, de saison, à deux pas de chez vous",
+    "apropos": "Chez {nom}, tout est préparé sur place avec des produits frais, choisis chez les producteurs de la région. Que ce soit pour un déjeuner rapide, un dîner entre amis ou une occasion à fêter, nous vous accueillons dans une ambiance simple et conviviale{ville_a}.",
+    "titre_offre": "La carte",
+    "offre": [
+      {"nom": "Entrée du jour", "desc": "Selon le marché et l'inspiration du chef", "prix": "8"},
+      {"nom": "Plat du jour", "desc": "Servi avec sa garniture de saison", "prix": "16"},
+      {"nom": "Dessert maison", "desc": "Tarte, mousse ou crème, préparés le matin même", "prix": "7"}
+    ],
+    "horaires": "Du mardi au samedi : 12 h – 14 h 30 et 19 h – 22 h",
+    "bouton": "Réserver une table",
+    "pitch": "Un site de restaurant doit répondre en quelques secondes à trois questions : qu'est-ce qu'on mange, quand c'est ouvert et comment réserver. Le modèle Restaurant met la carte avec les prix en avant, affiche vos horaires et un bouton pour appeler ou réserver par WhatsApp, avec le plan d'accès juste en dessous.",
+    "conseils": ["Mettez une vraie photo de votre salle ou d'un plat signature en image principale.", "Gardez la carte à jour : un prix ancien fait fuir plus qu'il ne rassure.", "Ajoutez le lien de votre site sur votre fiche Google Business Profile."]
+  },
+  {
+    "id": "boulangerie",
+    "nom": "Boulangerie, pâtisserie",
+    "emoji": "🥐",
+    "theme": "chaleureux",
+    "couleur": "#a16207",
+    "exemple": "Au Bon Pain Doré",
+    "slogan": "Pains au levain, viennoiseries et pâtisseries faites maison chaque matin",
+    "apropos": "{nom} pétrit, façonne et cuit sur place tous les jours. Nous travaillons des farines de qualité et prenons le temps qu'il faut pour que chaque pain ait du goût. Commandez vos gâteaux d'anniversaire et vos plateaux pour vos événements{ville_a}.",
+    "titre_offre": "Nos spécialités",
+    "offre": [
+      {"nom": "Baguette de tradition", "desc": "Croûte croustillante, mie alvéolée", "prix": "1.30"},
+      {"nom": "Croissant pur beurre", "desc": "Feuilleté maison", "prix": "1.40"},
+      {"nom": "Entremets 6 parts", "desc": "Sur commande, 48 h à l'avance", "prix": "24"}
+    ],
+    "horaires": "Du mardi au dimanche : 6 h 30 – 19 h 30",
+    "bouton": "Commander un gâteau",
+    "pitch": "Vos clients cherchent vos horaires, vos spécialités et surtout un moyen simple de commander un gâteau pour le week-end. Le modèle Boulangerie affiche vos produits avec leurs prix et permet de recevoir les commandes par WhatsApp ou par e-mail, sans commission.",
+    "conseils": ["Indiquez clairement le délai de commande pour les gâteaux.", "Précisez votre jour de fermeture en haut de page.", "Une photo de vitrine bien éclairée donne envie plus que de longs textes."]
+  },
+  {
+    "id": "coiffeur",
+    "nom": "Coiffeur, barbier",
+    "emoji": "💇",
+    "theme": "moderne",
+    "couleur": "#be185d",
+    "exemple": "Studio Mèches",
+    "slogan": "Coupe, couleur et soins, avec ou sans rendez-vous",
+    "apropos": "Chez {nom}, on prend le temps de vous écouter avant de prendre les ciseaux. Coupe, couleur, balayage ou barbe : nous vous conseillons la coiffure qui vous ressemble, dans un salon accueillant{ville_a}.",
+    "titre_offre": "Nos prestations",
+    "offre": [
+      {"nom": "Coupe femme", "desc": "Shampoing, coupe et brushing", "prix": "38"},
+      {"nom": "Coupe homme", "desc": "Shampoing et coupe", "prix": "22"},
+      {"nom": "Couleur", "desc": "À partir de, selon la longueur", "prix": "45"}
+    ],
+    "horaires": "Du mardi au samedi : 9 h – 19 h",
+    "bouton": "Prendre rendez-vous",
+    "pitch": "Un salon de coiffure gagne des clients quand on peut voir ses tarifs et prendre rendez-vous en un geste. Le modèle Coiffeur présente vos prestations avec leurs prix et met un bouton d'appel et de rendez-vous WhatsApp toujours visible sur mobile.",
+    "conseils": ["Affichez des prix « à partir de » plutôt que rien du tout.", "Ajoutez votre Instagram : c'est votre meilleure vitrine de réalisations.", "Indiquez si vous prenez sans rendez-vous."]
+  },
+  {
+    "id": "beaute",
+    "nom": "Esthétique, bien-être",
+    "emoji": "💅",
+    "theme": "elegant",
+    "couleur": "#9d174d",
+    "exemple": "Instant Douceur",
+    "slogan": "Soins du visage, du corps et des ongles, dans un cocon de calme",
+    "apropos": "{nom} vous accueille pour une parenthèse de bien-être. Soins du visage, épilation, beauté des mains et des pieds ou massage : chaque soin est adapté à vos envies et à votre peau{ville_a}.",
+    "titre_offre": "Nos soins",
+    "offre": [
+      {"nom": "Soin du visage", "desc": "Nettoyage, gommage et masque, 1 h", "prix": "55"},
+      {"nom": "Beauté des mains", "desc": "Manucure et pose de vernis", "prix": "30"},
+      {"nom": "Massage relaxant", "desc": "Modelage du corps, 1 h", "prix": "65"}
+    ],
+    "horaires": "Du mardi au samedi : 10 h – 19 h, sur rendez-vous",
+    "bouton": "Réserver un soin",
+    "pitch": "Les clientes comparent les tarifs et l'ambiance avant de réserver. Le modèle Esthétique met en avant vos soins, leurs durées et leurs prix, avec un style élégant et un bouton de réservation direct.",
+    "conseils": ["Indiquez la durée de chaque soin.", "Proposez des bons cadeaux : ils se vendent très bien en fin d'année.", "Rappelez votre politique d'annulation dans les horaires."]
+  },
+  {
+    "id": "artisan",
+    "nom": "Artisan du bâtiment",
+    "emoji": "🛠️",
+    "theme": "moderne",
+    "couleur": "#1d4ed8",
+    "exemple": "Martin Rénovation",
+    "slogan": "Plomberie, électricité et rénovation : un travail propre, un devis clair",
+    "apropos": "{nom} intervient chez les particuliers et les professionnels pour vos travaux de rénovation, de dépannage et d'installation{ville_a}. Devis gratuit, délais tenus et chantier laissé propre : c'est notre engagement.",
+    "titre_offre": "Nos services",
+    "offre": [
+      {"nom": "Dépannage", "desc": "Intervention rapide, déplacement inclus dans le secteur", "prix": "60"},
+      {"nom": "Rénovation de salle de bains", "desc": "Sur devis gratuit", "prix": ""},
+      {"nom": "Mise aux normes électriques", "desc": "Diagnostic et travaux sur devis", "prix": ""}
+    ],
+    "horaires": "Du lundi au vendredi : 8 h – 18 h. Urgences le samedi.",
+    "bouton": "Demander un devis gratuit",
+    "pitch": "Quand un client cherche un artisan, il veut savoir vite si vous intervenez chez lui et comment vous joindre. Le modèle Artisan met votre zone d'intervention, vos services et un gros bouton « Demander un devis » au premier plan.",
+    "conseils": ["Écrivez les communes où vous intervenez : c'est ce que les gens tapent sur Google.", "Mentionnez vos certifications et assurances (par exemple la garantie décennale).", "Ajoutez des photos avant / après de vos chantiers."]
+  },
+  {
+    "id": "boutique",
+    "nom": "Boutique en ligne",
+    "emoji": "🛍️",
+    "theme": "minimal",
+    "couleur": "#111827",
+    "exemple": "Maison Lumen",
+    "slogan": "Une sélection d'objets utiles et beaux, livrés chez vous",
+    "apropos": "{nom} sélectionne des produits de qualité, durables et faciles à offrir. Commandez en quelques clics : nous préparons votre colis avec soin et l'expédions rapidement.",
+    "titre_offre": "Nos produits",
+    "offre": [
+      {"nom": "Bougie parfumée", "desc": "Cire végétale, 40 h de combustion", "prix": "24"},
+      {"nom": "Tote bag en coton bio", "desc": "Imprimé en France", "prix": "18"},
+      {"nom": "Coffret cadeau", "desc": "Trois produits au choix, emballage offert", "prix": "49"}
+    ],
+    "horaires": "Commandes 7 j/7. Expédition sous 48 h ouvrées.",
+    "bouton": "Voir les produits",
+    "pitch": "Pas besoin d'un abonnement Shopify pour vendre ses premiers produits. Le modèle Boutique affiche votre catalogue avec photos et prix, un panier, et la commande arrive par WhatsApp ou par e-mail. Vous pouvez aussi coller un lien de paiement PayPal ou Stripe sur chaque produit.",
+    "conseils": ["Prenez vos photos produit sur un fond uni, à la lumière du jour.", "Indiquez les frais et délais de livraison dès la page d'accueil.", "Vendre en ligne impose des mentions précises (CGV, droit de rétractation) : vérifiez-les sur service-public.fr."]
+  },
+  {
+    "id": "fait-main",
+    "nom": "Créations faites main",
+    "emoji": "🧶",
+    "theme": "chaleureux",
+    "couleur": "#7c3aed",
+    "exemple": "Les Fils de Léa",
+    "slogan": "Bijoux, déco et accessoires créés à la main, en petites séries",
+    "apropos": "Derrière {nom}, il y a un atelier et des heures de travail minutieux. Chaque pièce est imaginée et fabriquée à la main, en petite quantité. Vous pouvez aussi demander une création personnalisée.",
+    "titre_offre": "Mes créations",
+    "offre": [
+      {"nom": "Boucles d'oreilles", "desc": "Laiton doré, pièce unique", "prix": "22"},
+      {"nom": "Coussin brodé", "desc": "Lin naturel, 40 × 40 cm", "prix": "35"},
+      {"nom": "Création sur mesure", "desc": "Parlons de votre projet", "prix": ""}
+    ],
+    "horaires": "Commandes toute l'année. Délai de fabrication : 1 à 2 semaines.",
+    "bouton": "Découvrir les créations",
+    "pitch": "Les créateurs vendent souvent sur les marchés et Instagram, mais un site à soi rassure et évite les commissions des places de marché. Le modèle Fait main met vos photos en valeur et prend les commandes par message.",
+    "conseils": ["Racontez votre atelier en quelques phrases : les clients achètent aussi une histoire.", "Montrez la pièce portée ou en situation.", "Précisez les délais de fabrication."]
+  },
+  {
+    "id": "coach",
+    "nom": "Coach, sport, bien-être",
+    "emoji": "🏋️",
+    "theme": "moderne",
+    "couleur": "#059669",
+    "exemple": "Coaching Énergie",
+    "slogan": "Des séances adaptées à votre niveau pour atteindre vos objectifs",
+    "apropos": "Avec {nom}, vous avancez à votre rythme, avec un programme pensé pour vous. Remise en forme, perte de poids, préparation sportive ou gestion du stress : chaque séance est encadrée et bienveillante, en salle, en extérieur ou à distance{ville_a}.",
+    "titre_offre": "Les formules",
+    "offre": [
+      {"nom": "Séance découverte", "desc": "Bilan et première séance, 1 h", "prix": "30"},
+      {"nom": "Séance individuelle", "desc": "1 h de coaching personnalisé", "prix": "50"},
+      {"nom": "Pack 10 séances", "desc": "Suivi complet et programme sur mesure", "prix": "450"}
+    ],
+    "horaires": "Du lundi au samedi : 7 h – 21 h, sur rendez-vous",
+    "bouton": "Réserver une séance découverte",
+    "pitch": "Un coach se choisit sur la confiance. Le modèle Coach présente votre approche, vos formules avec leurs prix et met en avant une séance découverte facile à réserver.",
+    "conseils": ["Proposez une première séance à petit prix pour lever les hésitations.", "Indiquez vos diplômes ou certifications.", "Précisez où ont lieu les séances."]
+  },
+  {
+    "id": "photographe",
+    "nom": "Photographe",
+    "emoji": "📷",
+    "theme": "minimal",
+    "couleur": "#0f172a",
+    "exemple": "Clara Lumière Photo",
+    "slogan": "Mariages, portraits et événements : des images qui vous ressemblent",
+    "apropos": "Je suis {nom}, photographe{ville_a}. J'aime saisir les émotions vraies, sans pose forcée. Pour un mariage, une séance famille ou les photos de votre entreprise, je vous accompagne du premier échange jusqu'à la livraison des images.",
+    "titre_offre": "Mes offres",
+    "offre": [
+      {"nom": "Séance portrait", "desc": "1 h, 20 photos retouchées", "prix": "150"},
+      {"nom": "Séance famille", "desc": "1 h 30 en extérieur", "prix": "220"},
+      {"nom": "Mariage", "desc": "Formules sur devis", "prix": ""}
+    ],
+    "horaires": "Séances 7 j/7 sur rendez-vous",
+    "bouton": "Demander une date",
+    "pitch": "Pour un photographe, le site est le portfolio. Le modèle Photographe laisse toute la place aux images, présente vos formules et propose un bouton pour vérifier une date.",
+    "conseils": ["Choisissez votre plus belle photo en image principale.", "Indiquez le délai de livraison des photos.", "Précisez si vous vous déplacez et à quel tarif."]
+  },
+  {
+    "id": "freelance",
+    "nom": "Freelance, consultant",
+    "emoji": "💼",
+    "theme": "minimal",
+    "couleur": "#4338ca",
+    "exemple": "Durand Conseil",
+    "slogan": "Un accompagnement clair et efficace pour faire avancer vos projets",
+    "apropos": "{nom} accompagne les entreprises et les indépendants qui veulent avancer vite, sans jargon. Je travaille en mission courte ou en accompagnement régulier, à distance ou sur place{ville_a}.",
+    "titre_offre": "Mes services",
+    "offre": [
+      {"nom": "Rendez-vous découverte", "desc": "30 minutes pour faire le point, offert", "prix": "0"},
+      {"nom": "Mission ponctuelle", "desc": "Tarif à la journée", "prix": "450"},
+      {"nom": "Accompagnement mensuel", "desc": "Sur devis selon vos besoins", "prix": ""}
+    ],
+    "horaires": "Du lundi au vendredi : 9 h – 18 h",
+    "bouton": "Planifier un rendez-vous",
+    "pitch": "Un indépendant a besoin d'une page claire qui explique ce qu'il fait, pour qui, et comment le contacter. Le modèle Freelance va à l'essentiel, avec un style sobre et professionnel.",
+    "conseils": ["Dites pour qui vous travaillez, pas seulement ce que vous faites.", "Ajoutez votre profil LinkedIn.", "Proposez un premier échange gratuit."]
+  },
+  {
+    "id": "association",
+    "nom": "Association, club",
+    "emoji": "🤝",
+    "theme": "moderne",
+    "couleur": "#0369a1",
+    "exemple": "Les Amis du Quartier",
+    "slogan": "Ensemble, faisons vivre notre quartier",
+    "apropos": "{nom} réunit des bénévoles et des habitants autour d'activités, de sorties et de projets partagés{ville_a}. Tout le monde est le bienvenu : venez nous rencontrer, adhérer ou donner un coup de main.",
+    "titre_offre": "Adhésions et activités",
+    "offre": [
+      {"nom": "Adhésion annuelle", "desc": "Accès à toutes les activités", "prix": "15"},
+      {"nom": "Adhésion famille", "desc": "Pour tout le foyer", "prix": "25"},
+      {"nom": "Faire un don", "desc": "Du montant de votre choix", "prix": ""}
+    ],
+    "horaires": "Permanence le mercredi de 17 h à 19 h",
+    "bouton": "Adhérer",
+    "pitch": "Une association a besoin d'un site pour présenter ses activités, recruter des bénévoles et recevoir des adhésions. Le modèle Association le fait gratuitement, avec un bouton d'adhésion qui peut pointer vers HelloAsso ou un lien de paiement.",
+    "conseils": ["Indiquez la date et le lieu de votre prochain événement.", "Pour les adhésions en ligne, un lien HelloAsso fonctionne très bien.", "Mettez une photo d'un vrai moment de l'association."]
+  },
+  {
+    "id": "gite",
+    "nom": "Gîte, chambre d'hôtes",
+    "emoji": "🏡",
+    "theme": "elegant",
+    "couleur": "#166534",
+    "exemple": "Le Clos des Tilleuls",
+    "slogan": "Une maison au calme pour se ressourcer, au cœur de la nature",
+    "apropos": "{nom} vous accueille dans une maison de caractère entièrement rénovée{ville_a}. Jardin, terrasse et literie de qualité : tout est pensé pour que vous vous sentiez bien. Réservez en direct, sans frais de plateforme.",
+    "titre_offre": "Tarifs",
+    "offre": [
+      {"nom": "Chambre double", "desc": "Petit-déjeuner inclus, par nuit", "prix": "85"},
+      {"nom": "Gîte 4 personnes", "desc": "Par nuit, 2 nuits minimum", "prix": "120"},
+      {"nom": "Semaine en haute saison", "desc": "Du samedi au samedi", "prix": "750"}
+    ],
+    "horaires": "Arrivée à partir de 16 h, départ avant 11 h",
+    "bouton": "Vérifier les disponibilités",
+    "pitch": "Réserver en direct évite les commissions des grandes plateformes, à condition d'avoir un site qui inspire confiance. Le modèle Gîte met vos photos, vos tarifs et un bouton de demande de disponibilités en avant.",
+    "conseils": ["Mettez plusieurs photos : chambres, extérieur, environs.", "Indiquez les activités à proximité.", "Proposez un petit avantage à ceux qui réservent en direct."]
+  }
+]

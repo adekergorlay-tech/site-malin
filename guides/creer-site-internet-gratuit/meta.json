@@ -1,0 +1,12 @@
+{
+  "title": "Créer un site internet gratuit pour son activité, pas à pas",
+  "description": "Comment créer gratuitement le site de votre commerce, de votre activité d'artisan ou de votre association, et le mettre en ligne sans rien payer.",
+  "emoji": "🚀",
+  "date": "2026-10-25",
+  "faq": [
+    {"q": "Peut-on vraiment avoir un site internet gratuit ?", "a": "Oui. Un site simple peut être créé et hébergé gratuitement. Vous aurez une adresse du type mon-site.netlify.app. Seul un nom de domaine personnalisé, facultatif, est payant."},
+    {"q": "Combien de temps faut-il pour créer son site ?", "a": "Avec un modèle prêt à l'emploi, comptez quelques minutes pour une première version, puis le temps de choisir vos photos et de relire vos textes."},
+    {"q": "Un site gratuit est-il bien référencé sur Google ?", "a": "Google regarde surtout la qualité du contenu, la vitesse du site et sa clarté, pas son prix. Ajoutez votre ville dans vos textes et créez votre fiche Google Business Profile."},
+    {"q": "Mon site doit-il avoir des mentions légales ?", "a": "Oui, tout site doit permettre d'identifier son éditeur et son hébergeur. Site Malin rédige ces mentions pour vous à partir de vos informations."}
+  ]
+}

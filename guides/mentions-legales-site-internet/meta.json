@@ -1,0 +1,12 @@
+{
+  "title": "Mentions légales d'un site internet : ce qui est obligatoire",
+  "description": "Quelles informations faire figurer dans les mentions légales de votre site en France, selon que vous êtes particulier, entrepreneur, société ou association.",
+  "emoji": "⚖️",
+  "date": "2026-10-24",
+  "faq": [
+    {"q": "Les mentions légales sont-elles obligatoires ?", "a": "Oui, tout site internet édité en France doit permettre d'identifier son éditeur et son hébergeur. Les informations exigées varient selon que vous êtes un particulier ou un professionnel."},
+    {"q": "Un particulier doit-il donner son adresse sur son site ?", "a": "Un particulier qui édite un site à titre non professionnel peut ne pas afficher son identité, à condition de l'avoir communiquée à son hébergeur. Le nom de l'hébergeur doit en revanche apparaître."},
+    {"q": "Où placer les mentions légales ?", "a": "Elles doivent être facilement accessibles, en général par un lien en bas de chaque page."},
+    {"q": "Que risque-t-on sans mentions légales ?", "a": "Leur absence est sanctionnée par la loi. Les montants des sanctions sont indiqués sur entreprendre.service-public.fr."}
+  ]
+}

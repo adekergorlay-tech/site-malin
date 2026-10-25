@@ -1,0 +1,128 @@
+<div class="builder" id="builder">
+  <div class="b-tabs">
+    <button type="button" class="b-tab on" data-view="edit">✏️ Modifier</button>
+    <button type="button" class="b-tab" data-view="preview">👁️ Aperçu</button>
+  </div>
+  <div class="b-side">
+    <ol class="b-steps" id="steps"></ol>
+
+    <div class="b-step" data-step="0" data-title="Activité">
+      <h1>Quel est votre projet ?</h1>
+      <p class="muted">Choisissez ce qui ressemble le plus à votre activité. Tout restera modifiable.</p>
+      <div class="b-acts" id="acts"></div>
+      <p class="muted small">Vous avez déjà un projet enregistré ?
+        <label class="linklike">Reprendre un fichier projet<input type="file" id="import" accept=".json,application/json" hidden></label></p>
+    </div>
+
+    <div class="b-step" data-step="1" data-title="Textes">
+      <h1>Présentez-vous</h1>
+      <label for="f-nom">Nom de votre activité</label>
+      <input id="f-nom" data-k="nom" maxlength="60">
+      <label for="f-ville">Ville <span class="muted">(facultatif, aide à être trouvé sur Google)</span></label>
+      <input id="f-ville" data-k="ville" maxlength="60" placeholder="Ex. : Nantes">
+      <label for="f-slogan">Votre phrase d'accroche</label>
+      <input id="f-slogan" data-k="slogan" maxlength="140">
+      <label for="f-apropos">Votre présentation</label>
+      <textarea id="f-apropos" data-k="apropos" rows="6" maxlength="1500"></textarea>
+      <span class="hint">Un texte vous est proposé : remplacez-le par vos mots si vous le souhaitez.</span>
+      <label for="f-bouton">Texte du bouton principal</label>
+      <input id="f-bouton" data-k="bouton" maxlength="40">
+    </div>
+
+    <div class="b-step" data-step="2" data-title="Style">
+      <h1>Choisissez votre style</h1>
+      <div class="b-themes" id="themes"></div>
+      <label>Votre couleur</label>
+      <div class="b-colors" id="colors"></div>
+      <label for="f-photo">Grande photo en haut du site <span class="muted">(conseillé)</span></label>
+      <div class="b-upload"><input type="file" id="f-photo" accept="image/*" data-img="photo" data-max="1600"><button type="button" class="b-x" data-clear="photo">Retirer</button></div>
+      <label for="f-logo">Votre logo <span class="muted">(facultatif)</span></label>
+      <div class="b-upload"><input type="file" id="f-logo" accept="image/*" data-img="logo" data-max="400"><button type="button" class="b-x" data-clear="logo">Retirer</button></div>
+      <span class="hint">Les images sont réduites automatiquement pour que le site reste rapide.</span>
+    </div>
+
+    <div class="b-step" data-step="3" data-title="Offre">
+      <h1>Vos produits ou services</h1>
+      <label>Comment vos clients commandent-ils ?</label>
+      <div class="b-radios" id="commande"></div>
+      <label for="f-titre">Titre de la section</label>
+      <input id="f-titre" data-k="titre_offre" maxlength="50">
+      <div id="items"></div>
+      <button type="button" class="b-btn ghost" id="add-item">+ Ajouter un produit ou un service</button>
+      <span class="hint">Laissez le prix vide pour afficher « Sur devis », ou mettez 0 pour « Offert ».</span>
+    </div>
+
+    <div class="b-step" data-step="4" data-title="Contact">
+      <h1>Comment vous joindre ?</h1>
+      <div class="b-row">
+        <div><label for="f-tel">Téléphone</label><input id="f-tel" data-k="telephone" inputmode="tel" placeholder="06 12 34 56 78"></div>
+        <div><label for="f-wa">WhatsApp</label><input id="f-wa" data-k="whatsapp" inputmode="tel" placeholder="06 12 34 56 78"></div>
+      </div>
+      <label for="f-email">E-mail</label>
+      <input id="f-email" data-k="email" type="email" placeholder="contact@exemple.fr">
+      <label for="f-adresse">Adresse <span class="muted">(un plan s'affichera)</span></label>
+      <input id="f-adresse" data-k="adresse" placeholder="12 rue des Lilas, 44000 Nantes">
+      <label for="f-horaires">Horaires</label>
+      <input id="f-horaires" data-k="horaires" maxlength="160">
+      <div class="b-row">
+        <div><label for="f-ig">Instagram</label><input id="f-ig" data-k="instagram" placeholder="@moncompte"></div>
+        <div><label for="f-fb">Facebook</label><input id="f-fb" data-k="facebook" placeholder="lien de la page"></div>
+      </div>
+      <p class="b-warn" id="contact-warn" hidden></p>
+    </div>
+
+    <div class="b-step" data-step="5" data-title="Légal">
+      <h1>Mentions légales</h1>
+      <p class="muted">En France, tout site doit indiquer qui l'édite. Nous rédigeons la page pour vous à partir de ces informations.</p>
+      <label for="f-lnom">Votre nom ou celui de votre entreprise</label>
+      <input id="f-lnom" data-k="legal_nom" placeholder="Ex. : Marie Dupont ou Dupont SARL">
+      <label for="f-statut">Statut</label>
+      <select id="f-statut" data-k="legal_statut">
+        <option value="">Choisir…</option>
+        <option>particulier</option>
+        <option>entrepreneur individuel (micro-entreprise)</option>
+        <option>société</option>
+        <option>association</option>
+      </select>
+      <label for="f-siret">SIRET ou RNA <span class="muted">(si vous en avez un)</span></label>
+      <input id="f-siret" data-k="siret" maxlength="20">
+      <label for="f-ladresse">Adresse de l'éditeur <span class="muted">(si différente de l'adresse affichée)</span></label>
+      <input id="f-ladresse" data-k="legal_adresse">
+      <label class="check"><input type="checkbox" id="f-credit" data-k="credit"> Laisser le petit lien « Site créé avec Site Malin » en bas de page, pour nous aider à rester gratuits</label>
+      <p class="hint">Ces mentions couvrent l'essentiel. Si vous vendez en ligne, des règles en plus s'appliquent (conditions de vente, droit de rétractation) : vérifiez-les sur <a href="https://entreprendre.service-public.fr" target="_blank" rel="noopener">entreprendre.service-public.fr</a>.</p>
+    </div>
+
+    <div class="b-step" data-step="6" data-title="Publier">
+      <h1>Mettez votre site en ligne 🎉</h1>
+      <p>C'est gratuit et ça prend deux minutes. Suivez simplement ces étapes :</p>
+      <ol class="b-guide">
+        <li><button type="button" class="b-btn" id="download">⬇️ Télécharger mon site</button><br>
+          Un fichier <strong>mon-site.zip</strong> arrive dans vos téléchargements. Inutile de l'ouvrir.</li>
+        <li>Ouvrez la page <a href="https://app.netlify.com/drop" target="_blank" rel="noopener"><strong>app.netlify.com/drop</strong></a> (service gratuit d'hébergement de sites).</li>
+        <li>Faites glisser le fichier <strong>mon-site.zip</strong> depuis vos téléchargements jusque dans le grand cadre en pointillés de cette page.</li>
+        <li>Quelques secondes plus tard, votre site est en ligne, avec une adresse qui se termine par <strong>.netlify.app</strong>. Cliquez dessus pour le voir.</li>
+        <li><strong>Important :</strong> Netlify vous propose ensuite de créer un compte gratuit. Faites-le : c'est ce qui garde votre site en ligne pour toujours et vous permet de choisir une adresse plus jolie.</li>
+      </ol>
+      <div class="b-box">
+        <strong>Pour modifier votre site plus tard</strong>
+        <p>Revenez ici, faites vos changements, téléchargez à nouveau le fichier et glissez-le dans l'onglet « Deploys » de votre site sur Netlify. Pensez aussi à garder votre projet :</p>
+        <button type="button" class="b-btn ghost" id="save-project">💾 Enregistrer mon projet</button>
+        <button type="button" class="b-btn ghost" id="open-full">Voir mon site en grand</button>
+      </div>
+      <div id="publish-aff"></div>
+    </div>
+
+    <div class="b-nav">
+      <button type="button" class="b-btn ghost" id="prev">← Retour</button>
+      <button type="button" class="b-btn" id="next">Continuer →</button>
+    </div>
+    <p class="muted small" id="saved-note"></p>
+  </div>
+  <div class="b-preview">
+    <div class="b-device">
+      <button type="button" class="on" data-w="100%">Ordinateur</button>
+      <button type="button" data-w="390px">Mobile</button>
+    </div>
+    <iframe id="preview" title="Aperçu de votre site" sandbox="allow-scripts allow-popups"></iframe>
+  </div>
+</div>
