@@ -1,14 +1,64 @@
 [
-  {"slug": "vendre-en-ligne-sans-shopify", "title": "Vendre en ligne sans Shopify : les solutions gratuites", "activite": "boutique", "notes": "Panier avec commande par WhatsApp ou e-mail, liens de paiement PayPal, Stripe Payment Links, SumUp ; avantages, limites, frais de transaction à vérifier sur leurs sites ; obligations de la vente à distance (CGV, rétractation 14 jours)."},
-  {"slug": "site-internet-restaurant", "title": "Créer le site de son restaurant : le guide complet", "activite": "restaurant", "notes": "Carte avec prix, horaires, réservation, photos, fiche Google Business Profile, avis clients ; erreurs fréquentes."},
-  {"slug": "referencement-local-google", "title": "Être trouvé sur Google dans sa ville : le référencement local", "notes": "Fiche Google Business Profile gratuite, nom de la ville dans les textes, avis, cohérence nom-adresse-téléphone, Search Console."},
-  {"slug": "site-internet-artisan", "title": "Site internet d'artisan : ce qu'il faut absolument y mettre", "activite": "artisan", "notes": "Zone d'intervention, services, devis, photos de chantiers, assurance décennale à mentionner selon les métiers, contact rapide."},
-  {"slug": "commandes-whatsapp-site", "title": "Recevoir des commandes sur WhatsApp depuis son site", "activite": "boulangerie", "notes": "Lien wa.me, message prérempli, WhatsApp Business gratuit, organiser les retraits et paiements, bonnes pratiques."},
-  {"slug": "site-coiffeur", "title": "Créer le site de son salon de coiffure gratuitement", "activite": "coiffeur", "notes": "Tarifs, prise de rendez-vous, Instagram, photos de réalisations, horaires."},
-  {"slug": "nom-de-domaine-choisir", "title": "Choisir et acheter son nom de domaine : le guide simple", "notes": "Qu'est-ce qu'un nom de domaine, .fr ou .com, bien le choisir, prix indicatifs à vérifier, le relier à son site."},
-  {"slug": "photos-site-internet-smartphone", "title": "Faire de belles photos pour son site avec un smartphone", "notes": "Lumière naturelle, fond uni, cadrage, photos produits, retouches simples gratuites, droits à l'image."},
-  {"slug": "site-gite-reservation-directe", "title": "Gîte ou chambre d'hôtes : réservez en direct grâce à votre site", "activite": "gite", "notes": "Économiser les commissions des plateformes, photos, tarifs, calendrier, acompte, taxe de séjour à vérifier auprès de la mairie."},
-  {"slug": "site-association-gratuit", "title": "Créer le site de son association gratuitement", "activite": "association", "notes": "Présenter les activités, recruter des bénévoles, adhésions en ligne avec HelloAsso, mentions légales d'une association (RNA)."},
-  {"slug": "site-coach-sportif", "title": "Coach sportif : un site qui donne envie de réserver", "activite": "coach", "notes": "Présenter sa méthode, formules et prix, séance découverte, diplômes (carte professionnelle d'éducateur sportif à vérifier), témoignages réels."},
-  {"slug": "rgpd-petit-site", "title": "RGPD : les règles simples pour un petit site internet", "notes": "Données collectées par formulaire et messages, cookies, bandeau quand il est nécessaire ou non, se référer à cnil.fr."}
+  {
+    "slug": "site-internet-restaurant",
+    "title": "Créer le site de son restaurant : le guide complet",
+    "activite": "restaurant",
+    "notes": "Carte avec prix, horaires, réservation, photos, fiche Google Business Profile, avis clients ; erreurs fréquentes."
+  },
+  {
+    "slug": "referencement-local-google",
+    "title": "Être trouvé sur Google dans sa ville : le référencement local",
+    "notes": "Fiche Google Business Profile gratuite, nom de la ville dans les textes, avis, cohérence nom-adresse-téléphone, Search Console."
+  },
+  {
+    "slug": "site-internet-artisan",
+    "title": "Site internet d'artisan : ce qu'il faut absolument y mettre",
+    "activite": "artisan",
+    "notes": "Zone d'intervention, services, devis, photos de chantiers, assurance décennale à mentionner selon les métiers, contact rapide."
+  },
+  {
+    "slug": "commandes-whatsapp-site",
+    "title": "Recevoir des commandes sur WhatsApp depuis son site",
+    "activite": "boulangerie",
+    "notes": "Lien wa.me, message prérempli, WhatsApp Business gratuit, organiser les retraits et paiements, bonnes pratiques."
+  },
+  {
+    "slug": "site-coiffeur",
+    "title": "Créer le site de son salon de coiffure gratuitement",
+    "activite": "coiffeur",
+    "notes": "Tarifs, prise de rendez-vous, Instagram, photos de réalisations, horaires."
+  },
+  {
+    "slug": "nom-de-domaine-choisir",
+    "title": "Choisir et acheter son nom de domaine : le guide simple",
+    "notes": "Qu'est-ce qu'un nom de domaine, .fr ou .com, bien le choisir, prix indicatifs à vérifier, le relier à son site."
+  },
+  {
+    "slug": "photos-site-internet-smartphone",
+    "title": "Faire de belles photos pour son site avec un smartphone",
+    "notes": "Lumière naturelle, fond uni, cadrage, photos produits, retouches simples gratuites, droits à l'image."
+  },
+  {
+    "slug": "site-gite-reservation-directe",
+    "title": "Gîte ou chambre d'hôtes : réservez en direct grâce à votre site",
+    "activite": "gite",
+    "notes": "Économiser les commissions des plateformes, photos, tarifs, calendrier, acompte, taxe de séjour à vérifier auprès de la mairie."
+  },
+  {
+    "slug": "site-association-gratuit",
+    "title": "Créer le site de son association gratuitement",
+    "activite": "association",
+    "notes": "Présenter les activités, recruter des bénévoles, adhésions en ligne avec HelloAsso, mentions légales d'une association (RNA)."
+  },
+  {
+    "slug": "site-coach-sportif",
+    "title": "Coach sportif : un site qui donne envie de réserver",
+    "activite": "coach",
+    "notes": "Présenter sa méthode, formules et prix, séance découverte, diplômes (carte professionnelle d'éducateur sportif à vérifier), témoignages réels."
+  },
+  {
+    "slug": "rgpd-petit-site",
+    "title": "RGPD : les règles simples pour un petit site internet",
+    "notes": "Données collectées par formulaire et messages, cookies, bandeau quand il est nécessaire ou non, se référer à cnil.fr."
+  }
 ]

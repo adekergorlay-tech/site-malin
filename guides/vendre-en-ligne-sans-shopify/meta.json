@@ -1,0 +1,26 @@
+{
+  "title": "Vendre en ligne sans Shopify : les solutions gratuites",
+  "description": "Découvrez comment lancer votre boutique en ligne sans abonnement mensuel grâce aux solutions gratuites, aux liens de paiement et au panier direct.",
+  "emoji": "🛍️",
+  "date": "2026-10-25",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Peut-on vendre en ligne gratuitement sans Shopify ?",
+      "a": "Oui. En combinant un site vitrine sans frais avec un panier qui transmet les commandes par WhatsApp ou e-mail, ou en intégrant des liens de paiement comme Stripe, SumUp ou PayPal, vous ne payez aucun abonnement mensuel fixe."
+    },
+    {
+      "q": "Quels sont les frais sur les liens de paiement Stripe ou PayPal ?",
+      "a": "Ces plateformes ne facturent aucun abonnement fixe pour les liens de paiement basiques. Elles prélèvent en revanche une commission au pourcentage et un montant fixe par transaction réussie. Les tarifs exacts sont à vérifier directement sur leurs sites officiels."
+    },
+    {
+      "q": "Le droit de rétractation de 14 jours s'applique-t-il aux créations artisanales ?",
+      "a": "Le droit de rétractation s'applique aux créations artisanales en stock standard. En revanche, les objets personnalisés ou fabriqués sur mesure selon les spécifications précises du client en sont exclus selon le Code de la consommation (à vérifier sur entreprendre.service-public.fr)."
+    },
+    {
+      "q": "Comment fonctionnent les commandes par WhatsApp ?",
+      "a": "Le visiteur remplit son panier sur votre site puis clique sur valider. Un message texte contenant le récapitulatif de sa commande et le total s'ouvre directement dans son application WhatsApp, prêt à vous être envoyé."
+    }
+  ],
+  "activite": "boutique"
+}
