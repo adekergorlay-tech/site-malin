@@ -38,7 +38,7 @@ def models():
                     if ("generateContent" in m.get("supportedGenerationMethods", []) and "flash" in name
                             and not re.search(r"lite|image|tts|audio|live|thinking|exp", name)):
                         found.append(name)
-        except (urllib.error.URLError, KeyError, json.JSONDecodeError) as e:
+        except (OSError, KeyError, json.JSONDecodeError) as e:
             print("Liste des modèles indisponible :", e)
 
         def version(n):
@@ -66,7 +66,7 @@ def gemini(prompt, schema=None):
                 API.format(model=model), data=json.dumps(body).encode(),
                 headers={"Content-Type": "application/json", "x-goog-api-key": key})
             try:
-                with urllib.request.urlopen(req, timeout=180) as r:
+                with urllib.request.urlopen(req, timeout=300) as r:
                     data = json.load(r)
                 text = data["candidates"][0]["content"]["parts"][0]["text"]
                 return json.loads(text)
@@ -75,7 +75,7 @@ def gemini(prompt, schema=None):
                 if e.code in (400, 404):
                     break  # modèle indisponible : on passe au suivant
                 time.sleep(20 * (attempt + 1))
-            except (KeyError, IndexError, json.JSONDecodeError, urllib.error.URLError) as e:
+            except (KeyError, IndexError, json.JSONDecodeError, OSError) as e:  # OSError couvre aussi les délais dépassés
                 last = f"{model}: {e}"
                 time.sleep(5)
     raise RuntimeError(f"Gemini n'a pas répondu correctement ({last})")
