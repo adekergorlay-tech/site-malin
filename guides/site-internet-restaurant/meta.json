@@ -1,0 +1,26 @@
+{
+  "title": "Créer le site de son restaurant : le guide complet",
+  "description": "Découvrez comment créer le site de votre restaurant : carte en ligne, réservation, photos et mentions légales pour attirer plus de clients.",
+  "emoji": "🍽️",
+  "date": "2026-10-27",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Est-il obligatoire d'afficher la liste des allergènes sur le site de mon restaurant ?",
+      "a": "Vous devez soit indiquer la présence des 14 allergènes majeurs directement sous chaque plat, soit préciser qu'un document écrit détaillant ces allergènes est tenu à la disposition du client."
+    },
+    {
+      "q": "Comment permettre aux clients de réserver une table sur mon site ?",
+      "a": "Vous pouvez insérer un simple bouton d'appel direct, un lien vers votre messagerie WhatsApp, ou intégrer le module externe de votre logiciel de caisse habituel."
+    },
+    {
+      "q": "Faut-il afficher les prix hors taxes ou toutes taxes comprises ?",
+      "a": "En France, les tarifs destinés aux consommateurs particuliers doivent impérativement être indiqués toutes taxes comprises (TTC) et en euros."
+    },
+    {
+      "q": "Pourquoi éviter de mettre mon menu au format PDF ?",
+      "a": "Le fichier PDF est lourd à télécharger sur mobile, difficile à lire sans zoomer et n'est pas optimisé pour le référencement naturel sur les moteurs de recherche."
+    }
+  ],
+  "activite": "restaurant"
+}
