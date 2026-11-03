@@ -1,11 +1,5 @@
 [
   {
-    "slug": "site-internet-artisan",
-    "title": "Site internet d'artisan : ce qu'il faut absolument y mettre",
-    "activite": "artisan",
-    "notes": "Zone d'intervention, services, devis, photos de chantiers, assurance décennale à mentionner selon les métiers, contact rapide."
-  },
-  {
     "slug": "commandes-whatsapp-site",
     "title": "Recevoir des commandes sur WhatsApp depuis son site",
     "activite": "boulangerie",

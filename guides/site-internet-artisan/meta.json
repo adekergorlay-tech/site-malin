@@ -1,0 +1,26 @@
+{
+  "title": "Site d'artisan : ce qu'il faut absolument y mettre",
+  "description": "Découvrez les éléments clés à afficher sur le site internet de votre entreprise du bâtiment : zone, devis, décennale et réalisations concrètes.",
+  "emoji": "🛠️",
+  "date": "2026-11-03",
+  "generated": true,
+  "faq": [
+    {
+      "q": "L'assurance décennale doit-elle obligatoirement être affichée sur le site d'un artisan ?",
+      "a": "Elle est obligatoire sur les devis et factures. L'afficher sur votre site internet n'est pas strictement exigé par la loi, mais c'est vivement conseillé pour rassurer vos clients et prouver la régularité de votre entreprise."
+    },
+    {
+      "q": "Comment montrer ses réalisations quand on débute son activité ?",
+      "a": "Photographiez vos tous premiers chantiers avec soin, même de petites réparations. Présentez des gros plans nets, un espace de travail rangé et des finitions impeccables pour montrer votre rigueur."
+    },
+    {
+      "q": "Combien de pages doit contenir le site d'un artisan du bâtiment ?",
+      "a": "Une seule page bien structurée peut suffire au démarrage. Elle regroupe vos services, votre zone d'intervention, vos réalisations, vos garanties et vos coordonnées directes."
+    },
+    {
+      "q": "Quelles mentions légales sont obligatoires pour un artisan en France ?",
+      "a": "Vous devez mentionner votre nom ou raison sociale, votre adresse, votre SIRET, votre inscription au RNE, les coordonnées de votre hébergeur web et votre numéro de TVA intracommunautaire si vous y êtes assujetti."
+    }
+  ],
+  "activite": "artisan"
+}
