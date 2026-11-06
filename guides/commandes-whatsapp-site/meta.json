@@ -1,0 +1,26 @@
+{
+  "title": "Recevoir des commandes WhatsApp pour sa boulangerie",
+  "description": "Découvrez comment ajouter les commandes WhatsApp à votre boulangerie ou pâtisserie. Guide simple et gratuit pour booster vos ventes locales.",
+  "emoji": "🥖",
+  "date": "2026-11-06",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Est-ce que WhatsApp Business est gratuit pour les artisans ?",
+      "a": "Oui, l'application WhatsApp Business est totalement gratuite sur iOS et Android pour les petites entreprises."
+    },
+    {
+      "q": "Comment créer un lien de commande WhatsApp prérempli ?",
+      "a": "Utilisez le format https://wa.me/33 suivi de votre numéro sans le zéro initial, puis ajoutez le paramètre text avec votre message."
+    },
+    {
+      "q": "Peut-on encaisser un acompte directement via WhatsApp ?",
+      "a": "Oui, il suffit d'envoyer un lien de paiement sécurisé Stripe, PayPal ou SumUp dans la conversation WhatsApp."
+    },
+    {
+      "q": "Quelles sont les mentions légales obligatoires sur mon site ?",
+      "a": "Vous devez afficher le SIRET, le nom de l'entreprise, l'adresse, le contact et l'hébergeur. Consultez service-public.fr pour vérifier la liste à jour."
+    }
+  ],
+  "activite": "boulangerie"
+}
