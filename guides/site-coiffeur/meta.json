@@ -1,0 +1,26 @@
+{
+  "title": "Créer le site de son salon de coiffure gratuitement",
+  "description": "Guide pratique pour créer gratuitement le site internet de votre salon de coiffure ou barber shop. Tarifs, RDV, Instagram et mise en ligne facile.",
+  "emoji": "✂️",
+  "date": "2026-11-10",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Comment créer un site internet gratuit pour un salon de coiffure ?",
+      "a": "Vous pouvez utiliser un modèle prêt à l'emploi conçu pour la coiffure, personnaliser vos textes, tarifs et photos, puis héberger votre site gratuitement via des solutions comme Netlify Drop."
+    },
+    {
+      "q": "Est-il obligatoire d'afficher les prix sur le site d'un coiffeur ?",
+      "a": "Oui, en France, les prix des prestations destinées aux consommateurs doivent être affichés clairement et en euros TTC. Pour vérifier les règles précises, consultez entreprendre.service-public.fr."
+    },
+    {
+      "q": "Comment proposer la prise de rendez-vous en ligne sans abonnement ?",
+      "a": "Vous pouvez intégrer des boutons directs redirigeant la demande du client vers votre compte WhatsApp ou votre adresse e-mail, sans payer de logiciel de réservation payant."
+    },
+    {
+      "q": "Quelles sont les mentions légales obligatoires pour un barbier ou coiffeur ?",
+      "a": "Le site doit mentionner votre nom ou raison sociale, l'adresse de l'établissement, le numéro SIRET, des coordonnées de contact direct et l'identité de l'hébergeur web."
+    }
+  ],
+  "activite": "coiffeur"
+}
