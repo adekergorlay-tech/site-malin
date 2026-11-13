@@ -1,0 +1,25 @@
+{
+  "title": "Choisir et acheter son nom de domaine : le guide simple",
+  "description": "Découvrez comment choisir et acheter votre nom de domaine en .fr ou .com. Un guide clair pour les artisans, commerçants et TPE françaises.",
+  "emoji": "🌐",
+  "date": "2026-11-13",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Est-ce qu'un nom de domaine est payant à vie ?",
+      "a": "Non, un nom de domaine se loue sous forme d'abonnement annuel. Tant que vous le renouvelez chaque année auprès de votre registrar, vous en conservez l'usage exclusif."
+    },
+    {
+      "q": "Puis-je changer de nom de domaine plus tard ?",
+      "a": "Oui, mais cela implique de rediriger l'ancien nom vers le nouveau pour ne pas perdre vos visiteurs ni votre référencement sur Google. Il est préférable de bien le choisir dès le départ."
+    },
+    {
+      "q": "Faut-il obligatoirement un nom de domaine pour créer un site ?",
+      "a": "Ce n'est pas obligatoire pour démarrer, mais c'est très fortement recommandé pour donner une image professionnelle à votre entreprise et inspirer confiance."
+    },
+    {
+      "q": "Où vérifier si un nom de domaine .fr est disponible ?",
+      "a": "Vous pouvez vérifier la disponibilité d'un domaine en .fr directement sur le site officiel de l'AFNIC (afnic.fr) ou sur la barre de recherche de n'importe quel registrar."
+    }
+  ]
+}
