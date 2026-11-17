@@ -1,0 +1,25 @@
+{
+  "title": "Faire de belles photos de site web au smartphone",
+  "description": "Apprenez à réaliser des photos professionnelles pour votre site internet avec votre smartphone : lumière, cadrage, retouches et règles juridiques.",
+  "emoji": "📸",
+  "date": "2026-11-17",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Quel smartphone choisir pour faire des photos professionnelles ?",
+      "a": "La plupart des smartphones sortis depuis moins de 3 ans sont suffisants. L'important n'est pas le nombre de mégapixels, mais la qualité de l'éclairage et la propreté de l'objectif."
+    },
+    {
+      "q": "Comment enlever le fond d'une photo de produit gratuitement ?",
+      "a": "Il existe des outils en ligne gratuits comme Adobe Express ou des applications mobiles qui utilisent l'intelligence artificielle pour détourer vos objets en un clic."
+    },
+    {
+      "q": "Quelle est la taille idéale d'une photo pour un site internet ?",
+      "a": "Pour ne pas ralentir votre site, évitez les fichiers de plus de 500 Ko. Utilisez des formats compressés comme le JPEG ou le WebP, avec une largeur maximale de 1920 pixels pour les bannières."
+    },
+    {
+      "q": "Est-il obligatoire d'avoir des mentions légales sur son site ?",
+      "a": "Oui, en France, tout site professionnel doit comporter des mentions légales identifiant l'éditeur. Site Malin propose d'ailleurs un générateur pour vous aider à respecter cette obligation."
+    }
+  ]
+}
