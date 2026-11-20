@@ -1,0 +1,26 @@
+{
+  "title": "Gîte : réservez en direct grâce à votre site web",
+  "description": "Créez le site de votre gîte ou chambre d'hôtes pour éviter les commissions, afficher vos tarifs et recevoir vos réservations en direct.",
+  "emoji": "🏡",
+  "date": "2026-11-20",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Comment recevoir des réservations en direct sans commission ?",
+      "a": "Publiez votre propre site web avec vos tarifs, vos photos et un moyen de contact direct par e-mail ou WhatsApp. Proposez un lien de paiement sécurisé pour encaisser un acompte sans passer par une plateforme intermédiaire."
+    },
+    {
+      "q": "Faut-il obligatoirement déclarer un gîte en mairie ?",
+      "a": "Oui, la déclaration en mairie est obligatoire pour les meublés de tourisme et les chambres d'hôtes avant le début de l'activité. Renseignez-vous sur le site officiel service-public.fr pour obtenir le formulaire adapté."
+    },
+    {
+      "q": "Comment collecter la taxe de séjour en direct ?",
+      "a": "Vous devez demander le barème officiel auprès de votre mairie ou communauté de communes, facturer le montant exact par nuitée et par adulte à vos hôtes, puis reverser la somme perçue à votre collectivité locale."
+    },
+    {
+      "q": "Vaut-il mieux demander des arrhes ou un acompte ?",
+      "a": "L'acompte engage fermement les deux parties à exécuter le contrat. Les arrhes permettent au client de se désister en abandonnant sa somme, mais vous obligent à verser le double si vous annulez vous-même la réservation."
+    }
+  ],
+  "activite": "gite"
+}

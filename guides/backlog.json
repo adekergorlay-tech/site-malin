@@ -1,11 +1,5 @@
 [
   {
-    "slug": "site-gite-reservation-directe",
-    "title": "Gîte ou chambre d'hôtes : réservez en direct grâce à votre site",
-    "activite": "gite",
-    "notes": "Économiser les commissions des plateformes, photos, tarifs, calendrier, acompte, taxe de séjour à vérifier auprès de la mairie."
-  },
-  {
     "slug": "site-association-gratuit",
     "title": "Créer le site de son association gratuitement",
     "activite": "association",
